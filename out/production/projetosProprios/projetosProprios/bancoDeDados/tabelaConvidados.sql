@@ -1,7 +1,0 @@
-CREATE DATABASE IF NOT EXISTS casamento;
-USE casamento;
-
-CREATE TABLE convidados (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL
-)
