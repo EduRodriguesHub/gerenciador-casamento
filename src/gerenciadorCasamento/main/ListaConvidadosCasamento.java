@@ -25,7 +25,7 @@ class ListaConvidadosCasamento {
         while (nomeNoivo.isBlank()){
             System.out.println("Não pode ser vazio, digite novamente: ");
             nomeNoivo = sc.nextLine();
-        }
+        } 
 
         ListaConvidados listaConvidados = new ListaConvidados();
         
